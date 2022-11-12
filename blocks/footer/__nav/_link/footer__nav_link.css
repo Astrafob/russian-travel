@@ -1,0 +1,17 @@
+.footer__nav_link {
+  margin-right: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.12;
+  color: white;
+  text-decoration: none;
+  transition: opacity .25s ease;
+}
+
+.footer__nav_link:last-child {
+  margin-right: 0;
+}
+
+.footer__nav_link:hover {
+  opacity: 0.8;
+}
