@@ -1,4 +1,10 @@
-.place_text-card {
-  display: flex;
-  flex-direction: column;
+.place__text-card {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .place__text-card {
+    margin: 0 16px;
+  }  
 }
